@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B73F216197BAE7F00946773 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B73F215197BAE7F00946773 /* AboutViewController.xib */; };
+		8B9F30FC197A4C4E009F188A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F30FB197A4C4E009F188A /* AppDelegate.swift */; };
+		8B9F3105197A4C4E009F188A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B9F3104197A4C4E009F188A /* Images.xcassets */; };
+		8B9F3111197A4C4E009F188A /* LJokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F3110197A4C4E009F188A /* LJokeTests.swift */; };
+		8B9F3121197A4DF8009F188A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F3120197A4DF8009F188A /* MainViewController.swift */; };
+		8B9F3123197A4E3D009F188A /* JokesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F3122197A4E3D009F188A /* JokesTableViewController.swift */; };
+		8B9F3125197A4E66009F188A /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F3124197A4E66009F188A /* AboutViewController.swift */; };
+		8B9F3127197A4E8E009F188A /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F3126197A4E8E009F188A /* ImageViewController.swift */; };
+		8B9F3129197A4EAA009F188A /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F3128197A4EAA009F188A /* CommentViewController.swift */; };
+		8B9F312B197AD7DF009F188A /* LJRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F312A197AD7DF009F188A /* LJRefreshView.swift */; };
+		8B9F3135197ADEA9009F188A /* LJJokeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B9F3134197ADEA9009F188A /* LJJokeCell.xib */; };
+		8B9F3137197ADF0C009F188A /* LJJokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F3136197ADF0C009F188A /* LJJokeCell.swift */; };
+		8B9F313A197ADF7C009F188A /* me.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8B9F3138197ADF7C009F188A /* me.jpeg */; };
+		8B9F313B197ADF7C009F188A /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B9F3139197ADF7C009F188A /* avatar.jpg */; };
+		8B9F313D197ADF8D009F188A /* LJRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B9F313C197ADF8D009F188A /* LJRefreshView.xib */; };
+		8B9F313F197ADFAA009F188A /* LJCommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F313E197ADFAA009F188A /* LJCommentCell.swift */; };
+		8B9F3141197ADFCA009F188A /* LJImageZoomingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F3140197ADFCA009F188A /* LJImageZoomingView.swift */; };
+		8B9F3143197AE59A009F188A /* NSDictionaryExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F3142197AE59A009F188A /* NSDictionaryExt.swift */; };
+		8B9F3145197AE6CB009F188A /* NSStringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F3144197AE6CB009F188A /* NSStringExt.swift */; };
+		8B9F3147197AEA26009F188A /* FileUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F3146197AEA26009F188A /* FileUtility.swift */; };
+		8B9F3149197AEC3A009F188A /* UIImageViewWebExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F3148197AEC3A009F188A /* UIImageViewWebExt.swift */; };
+		8B9F314B197AFA90009F188A /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F314A197AFA90009F188A /* UIViewExt.swift */; };
+		8B9F314D197B00EF009F188A /* LJHttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F314C197B00EF009F188A /* LJHttpRequest.swift */; };
+		8B9F314F197B0B8C009F188A /* LJCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B9F314E197B0B8C009F188A /* LJCommentCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B73F217197C61CA00946773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B9F30EE197A4C4E009F188A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B9F30F5197A4C4E009F188A;
+			remoteInfo = LJoke;
+		};
+		8B9F310B197A4C4E009F188A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B9F30EE197A4C4E009F188A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B9F30F5197A4C4E009F188A;
+			remoteInfo = LJoke;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B73F215197BAE7F00946773 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AboutViewController.xib; path = ViewController/AboutViewController.xib; sourceTree = "<group>"; };
+		8B9F30F6197A4C4E009F188A /* LJoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B9F30FA197A4C4E009F188A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B9F30FB197A4C4E009F188A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B9F3104197A4C4E009F188A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8B9F310A197A4C4E009F188A /* LJokeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJokeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B9F310F197A4C4E009F188A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B9F3110197A4C4E009F188A /* LJokeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LJokeTests.swift; sourceTree = "<group>"; };
+		8B9F3120197A4DF8009F188A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ViewController/MainViewController.swift; sourceTree = "<group>"; };
+		8B9F3122197A4E3D009F188A /* JokesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JokesTableViewController.swift; path = ViewController/JokesTableViewController.swift; sourceTree = "<group>"; };
+		8B9F3124197A4E66009F188A /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = ViewController/AboutViewController.swift; sourceTree = "<group>"; };
+		8B9F3126197A4E8E009F188A /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewController.swift; path = ViewController/ImageViewController.swift; sourceTree = "<group>"; };
+		8B9F3128197A4EAA009F188A /* CommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommentViewController.swift; path = ViewController/CommentViewController.swift; sourceTree = "<group>"; };
+		8B9F312A197AD7DF009F188A /* LJRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LJRefreshView.swift; path = View/LJRefreshView.swift; sourceTree = "<group>"; };
+		8B9F3134197ADEA9009F188A /* LJJokeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LJJokeCell.xib; path = View/LJJokeCell.xib; sourceTree = "<group>"; };
+		8B9F3136197ADF0C009F188A /* LJJokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LJJokeCell.swift; path = View/LJJokeCell.swift; sourceTree = "<group>"; };
+		8B9F3138197ADF7C009F188A /* me.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = me.jpeg; path = Image/me.jpeg; sourceTree = "<group>"; };
+		8B9F3139197ADF7C009F188A /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = avatar.jpg; path = Image/avatar.jpg; sourceTree = "<group>"; };
+		8B9F313C197ADF8D009F188A /* LJRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LJRefreshView.xib; path = View/LJRefreshView.xib; sourceTree = "<group>"; };
+		8B9F313E197ADFAA009F188A /* LJCommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LJCommentCell.swift; path = View/LJCommentCell.swift; sourceTree = "<group>"; };
+		8B9F3140197ADFCA009F188A /* LJImageZoomingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LJImageZoomingView.swift; path = View/LJImageZoomingView.swift; sourceTree = "<group>"; };
+		8B9F3142197AE59A009F188A /* NSDictionaryExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSDictionaryExt.swift; path = Utility/NSDictionaryExt.swift; sourceTree = "<group>"; };
+		8B9F3144197AE6CB009F188A /* NSStringExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSStringExt.swift; path = Utility/NSStringExt.swift; sourceTree = "<group>"; };
+		8B9F3146197AEA26009F188A /* FileUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileUtility.swift; path = Utility/FileUtility.swift; sourceTree = "<group>"; };
+		8B9F3148197AEC3A009F188A /* UIImageViewWebExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewWebExt.swift; sourceTree = "<group>"; };
+		8B9F314A197AFA90009F188A /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewExt.swift; path = View/UIViewExt.swift; sourceTree = "<group>"; };
+		8B9F314C197B00EF009F188A /* LJHttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LJHttpRequest.swift; path = HttpApi/LJHttpRequest.swift; sourceTree = "<group>"; };
+		8B9F314E197B0B8C009F188A /* LJCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LJCommentCell.xib; path = View/LJCommentCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B9F30F3197A4C4E009F188A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9F3107197A4C4E009F188A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B9F30ED197A4C4E009F188A = {
+			isa = PBXGroup;
+			children = (
+				8B9F30F8197A4C4E009F188A /* LJoke */,
+				8B9F310D197A4C4E009F188A /* LJokeTests */,
+				8B9F30F7197A4C4E009F188A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B9F30F7197A4C4E009F188A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B9F30F6197A4C4E009F188A /* LJoke.app */,
+				8B9F310A197A4C4E009F188A /* LJokeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B9F30F8197A4C4E009F188A /* LJoke */ = {
+			isa = PBXGroup;
+			children = (
+				8B9F311F197A4C9A009F188A /* Image */,
+				8B9F311E197A4C8A009F188A /* Utility */,
+				8B9F311D197A4C81009F188A /* HttpApi */,
+				8B9F311C197A4C70009F188A /* ViewController */,
+				8B9F311A197A4C58009F188A /* View */,
+				8B9F30FB197A4C4E009F188A /* AppDelegate.swift */,
+				8B9F3104197A4C4E009F188A /* Images.xcassets */,
+				8B9F30F9197A4C4E009F188A /* Supporting Files */,
+			);
+			path = LJoke;
+			sourceTree = "<group>";
+		};
+		8B9F30F9197A4C4E009F188A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B9F30FA197A4C4E009F188A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B9F310D197A4C4E009F188A /* LJokeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B9F3110197A4C4E009F188A /* LJokeTests.swift */,
+				8B9F310E197A4C4E009F188A /* Supporting Files */,
+			);
+			path = LJokeTests;
+			sourceTree = "<group>";
+		};
+		8B9F310E197A4C4E009F188A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B9F310F197A4C4E009F188A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B9F311A197A4C58009F188A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B9F313C197ADF8D009F188A /* LJRefreshView.xib */,
+				8B9F312A197AD7DF009F188A /* LJRefreshView.swift */,
+				8B9F3134197ADEA9009F188A /* LJJokeCell.xib */,
+				8B9F3136197ADF0C009F188A /* LJJokeCell.swift */,
+				8B9F313E197ADFAA009F188A /* LJCommentCell.swift */,
+				8B9F3140197ADFCA009F188A /* LJImageZoomingView.swift */,
+				8B9F314E197B0B8C009F188A /* LJCommentCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8B9F311C197A4C70009F188A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8B9F3120197A4DF8009F188A /* MainViewController.swift */,
+				8B9F3122197A4E3D009F188A /* JokesTableViewController.swift */,
+				8B9F3124197A4E66009F188A /* AboutViewController.swift */,
+				8B9F3126197A4E8E009F188A /* ImageViewController.swift */,
+				8B9F3128197A4EAA009F188A /* CommentViewController.swift */,
+				8B73F215197BAE7F00946773 /* AboutViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		8B9F311D197A4C81009F188A /* HttpApi */ = {
+			isa = PBXGroup;
+			children = (
+				8B9F314C197B00EF009F188A /* LJHttpRequest.swift */,
+			);
+			name = HttpApi;
+			sourceTree = "<group>";
+		};
+		8B9F311E197A4C8A009F188A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				8B9F3142197AE59A009F188A /* NSDictionaryExt.swift */,
+				8B9F3144197AE6CB009F188A /* NSStringExt.swift */,
+				8B9F3146197AEA26009F188A /* FileUtility.swift */,
+				8B9F3148197AEC3A009F188A /* UIImageViewWebExt.swift */,
+				8B9F314A197AFA90009F188A /* UIViewExt.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		8B9F311F197A4C9A009F188A /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				8B9F3138197ADF7C009F188A /* me.jpeg */,
+				8B9F3139197ADF7C009F188A /* avatar.jpg */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B9F30F5197A4C4E009F188A /* LJoke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B9F3114197A4C4E009F188A /* Build configuration list for PBXNativeTarget "LJoke" */;
+			buildPhases = (
+				8B9F30F2197A4C4E009F188A /* Sources */,
+				8B9F30F3197A4C4E009F188A /* Frameworks */,
+				8B9F30F4197A4C4E009F188A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LJoke;
+			productName = LJoke;
+			productReference = 8B9F30F6197A4C4E009F188A /* LJoke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B9F3109197A4C4E009F188A /* LJokeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B9F3117197A4C4E009F188A /* Build configuration list for PBXNativeTarget "LJokeTests" */;
+			buildPhases = (
+				8B9F3106197A4C4E009F188A /* Sources */,
+				8B9F3107197A4C4E009F188A /* Frameworks */,
+				8B9F3108197A4C4E009F188A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B9F310C197A4C4E009F188A /* PBXTargetDependency */,
+				8B73F218197C61CA00946773 /* PBXTargetDependency */,
+			);
+			name = LJokeTests;
+			productName = LJokeTests;
+			productReference = 8B9F310A197A4C4E009F188A /* LJokeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B9F30EE197A4C4E009F188A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = LGQ;
+				TargetAttributes = {
+					8B9F30F5197A4C4E009F188A = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					8B9F3109197A4C4E009F188A = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 8B9F30F5197A4C4E009F188A;
+					};
+				};
+			};
+			buildConfigurationList = 8B9F30F1197A4C4E009F188A /* Build configuration list for PBXProject "LJoke" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B9F30ED197A4C4E009F188A;
+			productRefGroup = 8B9F30F7197A4C4E009F188A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B9F30F5197A4C4E009F188A /* LJoke */,
+				8B9F3109197A4C4E009F188A /* LJokeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B9F30F4197A4C4E009F188A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9F313D197ADF8D009F188A /* LJRefreshView.xib in Resources */,
+				8B73F216197BAE7F00946773 /* AboutViewController.xib in Resources */,
+				8B9F314F197B0B8C009F188A /* LJCommentCell.xib in Resources */,
+				8B9F313A197ADF7C009F188A /* me.jpeg in Resources */,
+				8B9F3135197ADEA9009F188A /* LJJokeCell.xib in Resources */,
+				8B9F313B197ADF7C009F188A /* avatar.jpg in Resources */,
+				8B9F3105197A4C4E009F188A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9F3108197A4C4E009F188A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B9F30F2197A4C4E009F188A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9F30FC197A4C4E009F188A /* AppDelegate.swift in Sources */,
+				8B9F313F197ADFAA009F188A /* LJCommentCell.swift in Sources */,
+				8B9F312B197AD7DF009F188A /* LJRefreshView.swift in Sources */,
+				8B9F3137197ADF0C009F188A /* LJJokeCell.swift in Sources */,
+				8B9F3121197A4DF8009F188A /* MainViewController.swift in Sources */,
+				8B9F3143197AE59A009F188A /* NSDictionaryExt.swift in Sources */,
+				8B9F3129197A4EAA009F188A /* CommentViewController.swift in Sources */,
+				8B9F3127197A4E8E009F188A /* ImageViewController.swift in Sources */,
+				8B9F3125197A4E66009F188A /* AboutViewController.swift in Sources */,
+				8B9F3149197AEC3A009F188A /* UIImageViewWebExt.swift in Sources */,
+				8B9F3145197AE6CB009F188A /* NSStringExt.swift in Sources */,
+				8B9F3141197ADFCA009F188A /* LJImageZoomingView.swift in Sources */,
+				8B9F314B197AFA90009F188A /* UIViewExt.swift in Sources */,
+				8B9F314D197B00EF009F188A /* LJHttpRequest.swift in Sources */,
+				8B9F3147197AEA26009F188A /* FileUtility.swift in Sources */,
+				8B9F3123197A4E3D009F188A /* JokesTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9F3106197A4C4E009F188A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9F3111197A4C4E009F188A /* LJokeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B73F218197C61CA00946773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B9F30F5197A4C4E009F188A /* LJoke */;
+			targetProxy = 8B73F217197C61CA00946773 /* PBXContainerItemProxy */;
+		};
+		8B9F310C197A4C4E009F188A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B9F30F5197A4C4E009F188A /* LJoke */;
+			targetProxy = 8B9F310B197A4C4E009F188A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8B9F3112197A4C4E009F188A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B9F3113197A4C4E009F188A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B9F3115197A4C4E009F188A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = LJoke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B9F3116197A4C4E009F188A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = LJoke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B9F3118197A4C4E009F188A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LJoke.app/LJoke";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LJokeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		8B9F3119197A4C4E009F188A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LJoke.app/LJoke";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LJokeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B9F30F1197A4C4E009F188A /* Build configuration list for PBXProject "LJoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B9F3112197A4C4E009F188A /* Debug */,
+				8B9F3113197A4C4E009F188A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B9F3114197A4C4E009F188A /* Build configuration list for PBXNativeTarget "LJoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B9F3115197A4C4E009F188A /* Debug */,
+				8B9F3116197A4C4E009F188A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B9F3117197A4C4E009F188A /* Build configuration list for PBXNativeTarget "LJokeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B9F3118197A4C4E009F188A /* Debug */,
+				8B9F3119197A4C4E009F188A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B9F30EE197A4C4E009F188A /* Project object */;
+}
